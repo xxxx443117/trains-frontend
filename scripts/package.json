@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translate.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node translate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "md5": "^2.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}

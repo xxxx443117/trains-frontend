@@ -1,0 +1,99 @@
+:root {
+  --van-primary-color: var(--primary-color);
+}
+
+// button
+:root {
+  --van-button-normal-padding: 0 14px;
+  --van-button-round-radius: 3px;
+  --van-button-default-background: #b4c734;
+  --van-button-primary-background: #149799;
+  .van-button--default,
+  .van-button--primary {
+    border: none;
+  }
+  .van-button--normal,
+  .van-button--large {
+    .van-button__text {
+      font-weight: 800;
+      font-size: 20px;
+    }
+  }
+  .van-button--small {
+    .van-button__text {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+  .van-button--mini {
+    .van-button__text {
+      font-weight: bold;
+      font-size: inherit;
+    }
+  }
+}
+
+// tabbar
+:root {
+  --van-tabbar-background: #006a6c;
+  --van-tabbar-item-text-color: #59aeaf;
+  --van-tabbar-item-active-background: #006a6c;
+  --van-tabbar-item-active-color: #ffffff;
+  --van-tabbar-height: 70px;
+}
+
+// cell
+:root {
+  --van-cell-background: #007173;
+  --van-cell-group-background: #007173;
+  // --van-cell-line-height: 52px;
+  --van-cell-vertical-padding: 0;
+  --van-cell-horizontal-padding: 14px;
+  --van-cell-group-inset-radius: 3px;
+  .van-cell-group--inset {
+    margin: 0;
+  }
+}
+
+// field
+:root {
+  --van-field-placeholder-text-color: #59aeaf;
+  --van-field-label-color: #4dcacc;
+  --van-field-input-text-color: #fff;
+  --van-field-label-margin-right: 12px;
+  --van-field-label-width: auto;
+  .van-field {
+    border-radius: 3px;
+  }
+  .van-field__body {
+    height: 52px;
+  }
+  .van-field__label {
+    line-height: 52px;
+  }
+  .van-field__control {
+    // font-size: 20px;
+    // font-weight: 500;
+  }
+}
+
+// nav-bar
+:root {
+  --van-nav-bar-background: transparent;
+  --van-nav-bar-text-color: #ffffff;
+  --van-nav-bar-icon-color: #ffffff;
+  .van-hairline--bottom:after {
+    border: none;
+  }
+}
+// tabs
+:root {
+  --van-tabs-nav-background: transparent;
+  --van-tab-text-color: #75cfd0;
+  --van-padding-xs: 0;
+  --van-tab-font-size: 16px;
+  --van-tabs-bottom-bar-color: #fff;
+  .van-tab--shrink {
+    margin-right: 36px;
+  }
+}
